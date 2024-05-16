@@ -1,6 +1,8 @@
-# Proyecto_Enrique_Ayala_TC1030-Generador de contraseñas
+# Proyecto_Enrique_Ayala_TC1030
 
-## Contexto
+## Generador de contraseñas
+
+### Contexto
 
 Las contraseñas son la llave de entrada a nuestro mundo digital. El nosotros generar y/o tener una contraseña fuerte y robusta es un muy buen hábito para poder mantener nuestra seguridad en internet. Ahora bien, siempre tenemos esa pregunta: "¿Cada cuánto tiempo tenemos que cambiar nuestra contraseña?", es una pregunta realmente difícil, porque nunca podemos tener la idea de una contraseña que sea lo bastante segura. De acuerdo a Lance Spitzner, la correcta práctica es cambiar cada 90 días o cada 3 meses (Spitzner, s. f.).
 
