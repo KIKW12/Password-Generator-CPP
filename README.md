@@ -13,9 +13,9 @@ El programa se ejecuta en consola, es decir, está hecho con c++ standard y por 
 
 ●Compilar con el siguiente comando "g++ password_generator main.cpp".
 
-●En Windows una vez compilado, ejecutar password_generator.exe.
+●En Windows una vez compilado, ejecutar en terminal .\password_generator.exe.
 
-●En Linux escribir en terminar ./password_generator
+●En Linux ejecutar en terminal ./password_generator
 
 
 ## Referencias
