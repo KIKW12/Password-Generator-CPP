@@ -14,15 +14,13 @@ public:
             usarEspeciales, usarNumeros) {}
 
     string generarContraseña() override {
-    string contraseña = PasswordGenerator::generarContraseña();
-    if (usarNumeros) {
-        string primos = primeGen.obtenerPrimos(longitud);
-        // Remover los números primos de la contraseña generada
-        contraseña.erase(remove_if(contraseña.begin(), contraseña.end(), [&primos](char c) {
-            return primos.find(c) != string::npos;
-        }), contraseña.end());
+        string contraseña = PasswordGenerator::generarContraseña();
+        if (usarNumeros) {
+            string primos = primeGen.obtenerPrimos(longitud);
+            contraseña += primos.substr(0, longitud);
+        }
+        return contraseña;
     }
-    return contraseña;
 }
 };
 
