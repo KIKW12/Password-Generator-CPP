@@ -8,6 +8,10 @@ Las contraseñas son la llave de entrada a nuestro mundo digital. El nosotros ge
 
 Es aquí donde nace la idea de crear un generador de contraseñas que se adapte completamente a las carácterísticas requeridas por el usuario, desde la longitud de esta, si debe de utilizar mayúsculas, caracteres especiales, utilizar números y con esto, poder brindar una capa extra de seguridad al solo utilizar números primos generados de manera "aleatoria".
 
+## Consideraciones
+El programa se ejecuta en consola, es decir, está hecho con c++ standard y por ello es capaz de ser ejecutado en todos los sistemas operativos.
+●
+
 
 ## Referencias
 Spitzner, L. (s. f.). Why the 90 Day Rule for Password Changing? https://www.sans.org/blog/why-the-90-day-rule-for-password-changing/
