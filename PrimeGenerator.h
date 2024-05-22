@@ -2,26 +2,23 @@
 #define PRIME_GENERATOR_H
 
 #include <vector>
-#include <string>
 using namespace std;
 
 class PrimeGenerator {
 public:
-    string obtenerPrimos(int cantidad) {
+    vector<int> obtenerPrimos(int cantidad) {
         vector<int> primos;
-        string primosStr;
         int numero = 5;
         int paso = 2;
 
         while (primos.size() < cantidad) {
             if (esPrimo(numero, primos)) {
                 primos.push_back(numero);
-                primosStr += to_string(numero);
             }
             numero += paso;
             paso = 6 - paso;
         }
-        return primosStr;
+        return primos;
     }
 
 private:
