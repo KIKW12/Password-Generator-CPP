@@ -12,13 +12,19 @@ Es aquí donde nace la idea de crear un generador de contraseñas que se adapte 
 El programa se ejecuta en consola, es decir, está hecho con c++ standard y por ello es capaz de ser ejecutado en todos los sistemas operativos.
 
 ●Compilar con el siguiente comando:
-```g++ password_generator main.cpp"```
+```
+g++ password_generator main.cpp
+```
 
 ●En Windows una vez compilado, ejecutar en terminal:
-```.\password_generator.exe```
+```
+.\password_generator.exe
+```
 
 ●En Linux ejecutar en terminal 
-```./password_generator```
+```
+./password_generator
+```
 
 
 ## Referencias
