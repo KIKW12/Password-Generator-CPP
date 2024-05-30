@@ -18,6 +18,7 @@ public:
             usarEspeciales(usarEspeciales), usarNumeros(usarNumeros) {}
 
     virtual string generarContraseña() = 0;
+    virtual ~PasswordGeneratorBase() = default;
 };
 
 #endif // PASSWORD_GENERATOR_BASE_H

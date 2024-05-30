@@ -34,19 +34,23 @@ public:
                 for (int j = 0; j < cantidadContraseñas; ++j) {
                     PasswordConfig config(longitud, usarMayusculas, 
                     usarEspeciales, usarNumeros, usarPrimos);
-                    string contraseña;
+                    
+                    PasswordGeneratorBase* generador = nullptr;
+                    
                     if (usarPrimos) {
-                        PrimePasswordGenerator gen(config.getLongitud(), 
+                        generador = new PrimePasswordGenerator(config.getLongitud(), 
                         config.isUsarMayusculas(), config.isUsarEspeciales(), 
                         config.isUsarNumeros());
-                        contraseña = gen.generarContraseña();
                     } else {
-                        PasswordGenerator gen(config.getLongitud(), 
+                        generador = new PasswordGenerator(config.getLongitud(), 
                         config.isUsarMayusculas(), config.isUsarEspeciales(), 
                         config.isUsarNumeros());
-                        contraseña = gen.generarContraseña();
                     }
+
+                    string contraseña = generador->generarContraseña();
                     cout << (j + 1) << ". " << contraseña << endl;
+
+                    delete generador;  // Liberar la memoria
                 }
             }
         } catch (const invalid_argument& e) {
