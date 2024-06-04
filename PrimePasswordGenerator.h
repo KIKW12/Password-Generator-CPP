@@ -13,7 +13,7 @@ public:
     PrimePasswordGenerator(int longitud, bool usarMayusculas, bool usarEspeciales, bool usarNumeros)
             : PasswordGenerator(longitud, usarMayusculas, usarEspeciales, usarNumeros) {}
 
-    string generarContraseña() override {
+    string generarContraseña() {
         string contraseña = PasswordGenerator::generarContraseña();
         if (usarNumeros) {
             vector<int> primos = primeGen.obtenerPrimos(longitud);
@@ -24,7 +24,7 @@ public:
             shuffle(primos.begin(), primos.end(), eng);
 
             // Calculate the number of primes to insert
-            int numPrimesToInsert = longitud / 2; // Example: Insert half the length of primes
+            int numPrimesToInsert = longitud / 4; // Example: Insert half the length of primes
 
             for (int i = 0; i < numPrimesToInsert && i < primos.size(); ++i) {
                 int prime = primos[i];

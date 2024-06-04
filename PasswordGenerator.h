@@ -6,11 +6,13 @@
 class PasswordGenerator : public PasswordGeneratorBase {
 public:
     PasswordGenerator(int longitud, bool usarMayusculas, bool usarEspeciales, 
-    bool usarNumeros)
-            : PasswordGeneratorBase(longitud, usarMayusculas, 
-            usarEspeciales, usarNumeros) {}
+    bool usarNumeros): PasswordGeneratorBase(longitud, usarMayusculas, 
+        usarEspeciales, usarNumeros) {}
 
-    string generarContraseña() override {
+    PasswordGenerator(int longitud)
+        : PasswordGeneratorBase(longitud, true, true, true) {}
+
+    string generarContraseña() {
         string caracteres = "abcdefghijklmnopqrstuvwxyz";
 
         if (usarMayusculas) caracteres += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
