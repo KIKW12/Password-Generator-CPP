@@ -8,6 +8,25 @@ Las contraseñas son la llave de entrada a nuestro mundo digital. El nosotros ge
 
 Es aquí donde nace la idea de crear un generador de contraseñas que se adapte completamente a las carácterísticas requeridas por el usuario, desde la longitud de esta, si debe de utilizar mayúsculas, caracteres especiales, utilizar números y con esto, poder brindar una capa extra de seguridad al solo utilizar números primos generados de manera "aleatoria".
 
+## Librerias utilizadas en el proyecto
+### Librería STRING
+Brinda soporte para este tipo de objetos con una interfaz similar a la de un contenedor estándar de bytes, pero añadiendo características específicamente diseñadas para operar con cadenas de caracteres con un solo byte. 
+
+### Librería ALGORITHM
+Define una colección de funciones diseñadas especialmente para ser usadas en un rango de elementos. Un rango es una secuencia de obetos que puede ser accedida a través de iteradores o punteros, como un array o una instancia.
+
+### Librería VECTOR
+Es una plantilla de clase para contenedores de secuencia, que almacena los elementos de un tipo determinado de dato en una organización lineal y permite el acceso aleatorio rápido a cualquier elemento. 
+
+### Librería RANDOM
+Define instalaciones para generar números aleatorios, lo que permite distribuidos de manera uniforme. 
+
+### Librería CTIME
+Incluye el encabezado <time.h> de la biblioteca estándar de C y agrega los nombres asociados al espacio de nombres std.
+
+### Librería CSTDLIB
+Define varias funciones de uso general, incluyendo manejo dinámico de memporia, generación aleatoria de números, comunicacion con el ambiente, operaciones aritméticas, búsqueda, ordenamiento y converciones. 
+
 ## Consideraciones
 El programa se ejecuta en consola, es decir, está hecho con c++ standard y por ello es capaz de ser ejecutado en todos los sistemas operativos.
 
@@ -48,3 +67,11 @@ public:
 
 ## Referencias
 Spitzner, L. (s. f.). Why the 90 Day Rule for Password Changing? https://www.sans.org/blog/why-the-90-day-rule-for-password-changing/
+Library string. (s. f.). cplusplus.com. https://cplusplus.com/reference/string/
+Library algorithm. (s/f). Cplusplus.com. https://cplusplus.com/reference/algorithm/
+TylerMSFT. (s/f). vector (clase). Microsoft.com. https://learn.microsoft.com/es-es/cpp/standard-library/vector-class?view=msvc-170
+TylerMSFT. (2023, 16 junio). . https://learn.microsoft.com/es-es/cpp/standard-library/random?view=msvc-170
+
+
+
+
