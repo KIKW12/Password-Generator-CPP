@@ -67,11 +67,11 @@ public:
 
 ## Referencias
 Spitzner, L. (s. f.). Why the 90 Day Rule for Password Changing? https://www.sans.org/blog/why-the-90-day-rule-for-password-changing/
+
 Library string. (s. f.). cplusplus.com. https://cplusplus.com/reference/string/
+
 Library algorithm. (s/f). Cplusplus.com. https://cplusplus.com/reference/algorithm/
+
 TylerMSFT. (s/f). vector (clase). Microsoft.com. https://learn.microsoft.com/es-es/cpp/standard-library/vector-class?view=msvc-170
+
 TylerMSFT. (2023, 16 junio). . https://learn.microsoft.com/es-es/cpp/standard-library/random?view=msvc-170
-
-
-
-
