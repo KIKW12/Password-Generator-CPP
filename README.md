@@ -28,5 +28,23 @@ g++ main.cpp
 ## Correcciones
 En el diagrama UML de este proyecto, se incorporaron los casos en los cuales el proyecto deja de funcionar.
 
+Se corrige la sobreescritura de funciones, presentadas en las clases 'PasswordGenerator' y 'PrimePasswordGenerator' que sobreescriben a la función 
+```
+string generarContraseña()
+```
+que se encuentra en la clase 'PasswordGeneratorBase'.
+
+Así mismo, la sobrecarga se encuentra en la clase 'PasswordGenerator'
+```
+class PasswordGenerator {
+public:
+    PasswordGenerator(int longitud, bool usarMayusculas, bool usarEspeciales, bool usarNumeros)
+            : PasswordGeneratorBase(longitud, usarMayusculas, usarEspeciales, usarNumeros) {}
+
+    PasswordGenerator(int longitud)
+            : PasswordGeneratorBase(longitud, true, true, true) {}
+};
+```
+
 ## Referencias
 Spitzner, L. (s. f.). Why the 90 Day Rule for Password Changing? https://www.sans.org/blog/why-the-90-day-rule-for-password-changing/
