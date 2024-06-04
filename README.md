@@ -26,7 +26,7 @@ g++ main.cpp
 ./a.out
 ```
 ## Correcciones
-
+En el diagrama UML de este proyecto, se incorporaron los casos en los cuales el proyecto deja de funcionar.
 
 ## Referencias
 Spitzner, L. (s. f.). Why the 90 Day Rule for Password Changing? https://www.sans.org/blog/why-the-90-day-rule-for-password-changing/
