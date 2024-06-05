@@ -17,8 +17,8 @@ public:
             : longitud(longitud), usarMayusculas(usarMayusculas), 
             usarEspeciales(usarEspeciales), usarNumeros(usarNumeros) {}
 
-    virtual string generarContraseña() = 0;
     virtual ~PasswordGeneratorBase() = default;
+    virtual string generarContraseña() = 0;
 };
 
 #endif // PASSWORD_GENERATOR_BASE_H
