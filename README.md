@@ -44,7 +44,7 @@ g++ main.cpp
 ```
 ./a.out
 ```
-Casos en los que el programa dejaría de funcionar
+### Casos en los que el programa dejaría de funcionar
 1. Entradas no válidas: cuando el usuario ingresa valores no numéricos cuando se solicita, por ejemplo, la longitud de la contraseña o cuando es algo distinto a "s" o  "n" para los booleanos.
 2. Longitud de la contraseña no válida: si el usuario ingresa una longitud de la contraseña menor o igual a cero, el generador podría producir una contraseña vacía, causando problemas de ejecución.
 3. Configuración inconsistente: si se selecciona trabajar con numeros primos, pero no con números normales, genera una inconsistencia lógica y puede que el código no genere la contraseña correctamente. 
