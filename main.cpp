@@ -18,7 +18,7 @@
  * iniciar la interacción con el usuario y generar contraseñas.
  *
  * @param
- * @return int - Código de estado del programa.
+ * @return
  */
 int main() {
     UserInterface ui;
