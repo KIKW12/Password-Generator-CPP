@@ -45,8 +45,8 @@ A sophisticated, enterprise-grade password generator built with modern C++ that 
         ┌──────────────┴──────────────┐
         │                             │
 ┌───────▼─────────┐          ┌────────▼────────────────┐
-│ PasswordGenerator│          │ PrimePasswordGenerator  │
-│  (Standard Gen.) │          │   (Prime-Enhanced)      │
+│PasswordGenerator│          │ PrimePasswordGenerator  │
+│  Standard Gen.) │          │   (Prime-Enhanced)      │
 └─────────────────┘          └─────────┬───────────────┘
                                        │
                             ┌──────────▼──────────┐
