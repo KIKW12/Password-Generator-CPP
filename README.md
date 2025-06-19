@@ -3,6 +3,7 @@
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://cplusplus.com/)
 [![Security](https://img.shields.io/badge/Security-Focused-green?style=for-the-badge)](https://github.com)
 [![OOP](https://img.shields.io/badge/Design-Object%20Oriented-blue?style=for-the-badge)](https://github.com)
+[![Ask DeepWiki](https://img.shields.io/badge/Ask-DeepWiki-9B59B6?style=for-the-badge&logo=wikipedia&logoColor=white)](https://deepwiki.com/KIKW12/Password-Generator-CPP)
 
 A sophisticated, enterprise-grade password generator built with modern C++ that creates cryptographically secure passwords with customizable complexity levels, including prime number integration for enhanced security.
 
